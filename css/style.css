@@ -150,6 +150,7 @@ a, img, a:active, a:focus { outline: none; }
   .b-resto-sevencafe__slider-wrapper { position: relative; top: auto; right: auto; bottom: auto; left: auto; width: 100%; }
   .b-resto-sevencafe__second-aside-left { float: none; width: 100%; }
   .b-resto-sevencafe__second-aside-right { padding: 40px; } }
+/*4545454 */
 h1, h2, h3, h4, h5, h6 { font-family: inherit; letter-spacing: inherit; font-size: inherit; }
 
 .ovh { overflow: hidden; }
