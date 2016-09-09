@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "ALSSchlangesans-Bold";
+    src: url("../fonts/ALSSchlangesans-Bold.eot");
+    src: url("../fonts/ALSSchlangesans-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ALSSchlangesans-Bold.woff2") format("woff"),
+    url("../fonts/ALSSchlangesans-Bold.ttf") format("truetype"),
+    url("../fonts/ALSSchlangesans-Bold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ALSSchlangesans-Black";
+    src: url("../fonts/ALSSchlangesans-Black.eot");
+    src: url("../fonts/ALSSchlangesans-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ALSSchlangesans-Black.woff2") format("woff"),
+    url("../fonts/ALSSchlangesans-Black.ttf") format("truetype"),
+    url("../fonts/ALSSchlangesans-Black.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ALSSchlangesans-Light";
+    src: url("../fonts/ALSSchlangesans-Light.eot");
+    src: url("../fonts/ALSSchlangesans-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ALSSchlangesans-Light.woff2") format("woff"),
+    url("../fonts/ALSSchlangesans-Light.ttf") format("truetype"),
+    url("../fonts/ALSSchlangesans-Light.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ALSSchlangesans-Thin";
+    src: url("../fonts/ALSSchlangesans-Thin.eot");
+    src: url("../fonts/ALSSchlangesans-Thin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ALSSchlangesans-Thin.woff2") format("woff"),
+    url("../fonts/ALSSchlangesans-Thin.ttf") format("truetype"),
+    url("../fonts/ALSSchlangesans-Thin.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("../fonts/Ubuntu-Medium.eot");
+    src: url("../fonts/Ubuntu-Medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Ubuntu-Medium.woff2") format("woff"),
+    url("../fonts/Ubuntu-Medium.ttf") format("truetype"),
+    url("../fonts/Ubuntu-Medium.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu-Regular";
+    src: url("../fonts/Ubuntu-Regular.eot");
+    src: url("../fonts/Ubuntu-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Ubuntu-Regular.woff2") format("woff"),
+    url("../fonts/Ubuntu-Regular.ttf") format("truetype"),
+    url("../fonts/Ubuntu-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("../fonts/Ubuntu-Light.eot");
+    src: url("../fonts/Ubuntu-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Ubuntu-Light.woff2") format("woff"),
+    url("../fonts/Ubuntu-Light.ttf") format("truetype"),
+    url("../fonts/Ubuntu-Light.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("../fonts/Ubuntu-Bold.eot");
+    src: url("../fonts/Ubuntu-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Ubuntu-Bold.woff2") format("woff"),
+    url("../fonts/Ubuntu-Bold.ttf") format("truetype"),
+    url("../fonts/Ubuntu-Bold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+
+

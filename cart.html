@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>cart</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	
+</head>
+<body>
+<div class="b-site-wrapper">
+	<div class="b-site-wrapper__content">
+		
+		<!-- // BEGIN b-site-header -->
+		<div class="b-site-header">
+			<div class='b-content-wrap'>
+				<div class="b-site-header__top-wrapper clearfix">
+					<div class="b-site-header__logo float_l">
+						<a class="main-logo" href="#">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="b-site-header__phone float_l">
+						<div class="b-phone tac">
+							<p class="b-phone__title">Быстрая доставка вкусной еды</p>
+							<p class="b-phone__number">
+								<a class="phone__number-link" href="tel:3462940777">(3462) <span class='bold'>940-777</span></a>
+							</p>
+							<p class="b-phone__working-hours">
+								<span class="working-hours__item">вс - чт с 12:00 до 00:00</span>
+								<span class="working-hours__item">вс - чт с 12:00 до 00:00</span>
+							</p>
+						</div>
+					</div>
+					<div class='b-site-header__login-soc float_l'>
+						<div class="b-login-soc">
+							<span class="b-login-soc__title">Войти через</span>
+							<ul class='b-soc clearfix'>
+								<li class='b-soc__item'>
+									<a class="b-soc__link" href="#"><img src="img/soc-fb.jpg" alt=""></a>
+								</li>
+								<li class='b-soc__item'>
+									<a class="b-soc__link" href="#"><img src="img/soc-vk.jpg" alt=""></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="b-site-header__login float_l">
+						<div class="login-btn">
+							<a class="login-btn__item" data-call-popup="login" href="#">Вход</a>
+							<a class="login-btn__item" data-call-popup="registration" href="#">Регистрация</a>
+						</div>
+					</div>
+					<div class="b-site-header__cart float_r">
+						<a href="#" class="b-site-header__cart__checkout-btn btn-34lh red-btn check-icon float_r">Оформить</a>
+						<div class="b-small-cart float_r">
+							<div class="b-small-cart__default">
+								<span class="b-small-cart__value">4 шт.</span>
+								<span class="b-small-cart__price">2 710Р</span>
+							</div>
+							<div class="b-small-cart__popup">
+								<div class="b-small-cart__popup__content">
+									<ul class='b-small-cart__popup-list'>
+										<li class="b-small-cart__popup-item">
+											<div class="b-small-cart__table">
+												<div class="b-small-cart__td">
+													<div class='b-small-cart__popup-item__preview dib'>
+														<img src="img/cart-preview/cart-img1.jpg" alt="">
+													</div>
+												</div>
+												<div class="b-small-cart__td">
+													<div class="b-small-cart__popup-item__descr dib">
+														Пицца с пармской ветчиной и томатами
+													</div>
+												</div>
+												<div class="b-small-cart__td">
+													<span class="b-small-cart__popup-item__value dib">
+														3
+													</span>
+												</div>
+												<div class="b-small-cart__td price">
+													<span class="b-small-cart__popup-item__price dib">
+														1 260р	
+													</span>
+												</div>
+											</div>
+										</li>
+										<li class="b-small-cart__popup-item">
+											<div class="b-small-cart__table">
+												<div class="b-small-cart__td">
+													<div class='b-small-cart__popup-item__preview dib'>
+														<img src="img/cart-preview/cart-img2.jpg" alt="">
+													</div>
+												</div>
+												<div class="b-small-cart__td">
+													<div class="b-small-cart__popup-item__descr dib">
+														Пицца с пармской ветчиной и томатами
+													</div>
+												</div>
+												<div class="b-small-cart__td">
+													<span class="b-small-cart__popup-item__value dib">
+														3
+													</span>
+												</div>
+												<div class="b-small-cart__td price">
+													<span class="b-small-cart__popup-item__price dib">
+														1 260s
+													</span>
+												</div>
+											</div>
+										</li>
+										<li class="b-small-cart__popup-item">
+											<div class="b-small-cart__table">
+												<div class="b-small-cart__td">
+													<div class='b-small-cart__popup-item__preview dib'>
+														<img src="img/cart-preview/cart-img1.jpg" alt="">					
+													</div>
+												</div>
+												<div class="b-small-cart__td">
+													<div class="b-small-cart__popup-item__descr dib">
+														Пицца с пармской ветчиной и томатами
+													</div>
+												</div>
+												<div class="b-small-cart__td">
+													<span class="b-small-cart__popup-item__value dib">
+														3
+													</span>
+												</div>
+												<div class="b-small-cart__td price">
+													<span class="b-small-cart__popup-item__price dib">
+														1 260s
+													</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="b-small-cart__popup-result-line clearfix">
+										<div class="b-small-cart__popup-result float_l">
+											<span class="b-small-cart__popup-result__title">
+												Итого:
+											</span>
+											<span class="b-small-cart__popup-result__price">
+												2 710 р
+											</span>
+										</div>
+										<a class='b-small-cart__popup-buy-btn btn-30lh green-btn float_r' href="#">В корзину</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="b-site-header__mobile-menu float_r">
+						<span class="b-site-header__mobile-menu__btn">
+							<span class="icon-line"></span>
+							<span class="icon-line"></span>
+							<span class="icon-line"></span>
+						</span>
+					</div>
+				</div>
+
+
+				<ul class="b-main-nav clearfix">
+					<li class="b-main-nav__item ">
+						<div class="b-dropdown-menu">
+							<a class="b-main-nav__link" href="#">
+								<div class="b-main-nav__link-content">
+									<i class="icon arrow default"></i>
+									<i class="icon arrow active"></i>
+									Наши рестораны
+								</div>
+								<div class="b-main-nav__link-bg"></div>
+							</a>
+							<ul class="b-dropdown-menu__list">
+								<li class="b-dropdown-menu__list__item">
+									<a class="b-dropdown-menu__list__link" href="#">
+										<div class="b-dropdown-menu__list__link__preview">
+											<img src="img/restourants/restaurant-1-logo.png" alt="">
+										</div>
+										<span class="b-dropdown-menu__list__link__text">Сafe Seven</span>	
+									</a>
+								</li>
+								<li class="b-dropdown-menu__list__item">
+									<a class="b-dropdown-menu__list__link" href="#">
+										<div class="b-dropdown-menu__list__link__preview">
+											<img src="img/restourants/restaurant-2-logo.png" alt="">
+										</div>
+										<span class="b-dropdown-menu__list__link__text">Пивоварня № 1</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="b-main-nav__item">
+						<a class="b-main-nav__link" href="#">
+							<div class="b-main-nav__link-content">
+								<i class="icon menu default"></i>
+								<i class="icon menu active"></i>
+								МЕНЮ
+							</div>
+							<div class="b-main-nav__link-bg"></div>
+						</a>
+					</li>
+					<li class="b-main-nav__item">
+						<a class="b-main-nav__link" href="#">
+							<div class="b-main-nav__link-content">
+								<i class="icon sale default"></i>
+								<i class="icon sale active"></i>
+								АКЦИИ
+							</div>
+							<div class="b-main-nav__link-bg"></div>
+						</a>
+					</li>
+					<li class="b-main-nav__item">
+						<a class="b-main-nav__link" href="#">
+							<div class="b-main-nav__link-content">
+								<i class="icon delivery default"></i>
+								<i class="icon delivery active"></i>
+								ДОСТАВКА
+							</div>
+							<div class="b-main-nav__link-bg"></div>
+						</a>
+					</li>
+					<li class="b-main-nav__item">
+						<a class="b-main-nav__link" href="#">
+							<div class="b-main-nav__link-content">
+								<i class="icon contacts default"></i>
+								<i class="icon contacts active"></i>
+								КОНТАКТЫ
+							</div>
+							<div class="b-main-nav__link-bg"></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- // END b-site-header -->
+
+
+		
+		
+		<!-- BEGIN b-main-content-wrapper -->
+		<div class="b-main-content-wrapper">
+			<div class="b-content-wrap clearfix">
+				<div class="b-sidebar">
+					<div class="b-sidebar__toggle">
+						<span class="b-sidebar__toggle-icon"></span>
+					</div>
+					<form class="b-sidebar__comment">
+						<div class='b-sidebar__comment__top'>
+							<p class='b-sidebar__comment__value'>25<span class="domo-money">Д</span></p>
+							<div class="b-sidebar__comment__descr">домоденег <br>вы получите после <br>оформления заказа</div>
+						</div>
+						<div class='b-sidebar__comment__bottom'>
+							<div class="b-sidebar__comment__rating">
+								<div class="star-cb-group">
+									<input type="radio" id="rating-3" name="rating" value="3" checked="checked"/><label for="rating-3">3</label>
+									<input type="radio" id="rating-2" name="rating" value="2" /><label for="rating-2">2</label>
+									<input type="radio" id="rating-1" name="rating" value="1" /><label for="rating-1">1</label>
+						    	</div>
+							</div>
+							<p class='b-sidebar__comment__value'>+10<span class="domo-money">Д</span></p>
+							<div class="b-sidebar__comment__descr">мы подарим <br>за ваш отзыв</div>
+						</div>
+						<div class="b-sidebar__comment__button">
+							<button class='btn-34lh red-btn fz13'>ОСТАВИТЬ ОТЗЫВ</button>
+						</div>
+					</form>
+					<a href="#" class="b-sidebar__banner">
+						<img src="img/banner1.jpg" alt="">
+					</a>
+				</div>
+
+				<div class="b-main-content">
+					<div class="b-bread-crumbs">
+						<ul class="bread-crumbs">
+							<li class="bread-crumbs__item">
+								<a href="#" class="bread-crumbs__link">Главная</a>
+							</li>
+							<li class="bread-crumbs__item">
+								Корзина
+							</li>
+						</ul>
+					</div>
+					<div class="b-main-content__title">
+						<h1 class="title40fz">Корзина</h1>
+					</div>
+					<div class="b-cart-content">
+						<div class="b-cart-table__wrapper">
+							<div class="b-cart-table">
+								<div class='b-cart-table__tr header'>
+									<div class="b-cart-table__td descr">Состав заказа</div>
+									<div class="b-cart-table__td counter">Количество</div>
+									<div class="b-cart-table__td price">Сумма</div>
+									<div class="b-cart-table__td delete"></div>
+								</div>
+								<div class='b-cart-table__tr b-cart-table__item'>
+									<div class="b-cart-table__td descr">
+										<span class="b-cart-table__td__number">1</span>
+										<div class="b-cart-table__td__preview">
+											<img src="img/cart-preview/cart-img1.jpg" alt="">
+										</div>
+										<div class='b-cart-table__td__descr'>
+											<p class='b-cart-table__td__link-wrap'>
+												<a class="b-cart-table__td__link" href="#">Пицца с пармской <br>ветчиной и томатами</a>
+											</p>
+											<p class='b-cart-table__td__size'>Средняя, 29 см</p>
+										</div>
+									</div>
+									<div class="b-cart-table__td counter">
+										<div class="b-counter" data-step="1">
+											<input class="b-counter__input" maxlength="3" value="1" type="text">
+											<div class="b-counter__btns">
+												<span class="b-counter__plus b-counter__btn"></span>
+												<span class="b-counter__minus b-counter__btn"></span>
+											</div>
+										</div>
+									</div>
+									<div class="b-cart-table__td price">
+										<div class="b-cart-table__td__price">
+											<span class="b-cart-table__td__price-value">1 280</span>
+											<span class="b-cart-table__td__price-sign">Р</span>
+										</div>
+									</div>
+									<div class="b-cart-table__td delete">
+										<span class="b-cart-table__td__delete">Удалить</span>
+									</div>
+								</div>
+								<div class='b-cart-table__tr b-cart-table__item'>
+									<div class="b-cart-table__td descr">
+										<span class="b-cart-table__td__number">2</span>
+										<div class="b-cart-table__td__preview">
+											<img src="img/cart-preview/cart-img2.jpg" alt="">
+										</div>
+										<div class='b-cart-table__td__descr'>
+											<p class='b-cart-table__td__link-wrap'>
+												<a class="b-cart-table__td__link" href="#">Суши с тунцом</a>
+											</p>
+											<p class='b-cart-table__td__size'>75 гр.</p>
+										</div>
+									</div>
+									<div class="b-cart-table__td counter">
+										<div class="b-counter" data-step="1">
+											<input class="b-counter__input" maxlength="3" value="1" type="text">
+											<div class="b-counter__btns">
+												<span class="b-counter__plus b-counter__btn"></span>
+												<span class="b-counter__minus b-counter__btn"></span>
+											</div>
+										</div>
+									</div>
+									<div class="b-cart-table__td price">
+										<div class="b-cart-table__td__price">
+											<span class="b-cart-table__td__price-value">180</span>
+											<span class="b-cart-table__td__price-sign">Р</span>
+										</div>
+									</div>
+									<div class="b-cart-table__td delete">
+										<span class="b-cart-table__td__delete">Удалить</span>
+									</div>
+								</div>
+								<div class='b-cart-table__tr b-cart-table__item'>
+									<div class="b-cart-table__td descr">
+										<span class="b-cart-table__td__number">3</span>
+										<div class="b-cart-table__td__preview">
+											<img src="img/cart-preview/delivery-icon.png" alt="">
+										</div>
+										<div class='b-cart-table__td__descr'>
+											<p class='b-cart-table__td__link-wrap'>Бесплатная доставка</a>
+										</div>
+									</div>
+									<div class="b-cart-table__td counter"></div>
+									<div class="b-cart-table__td price">
+										<div class="b-cart-table__td__price">
+											<span class="b-cart-table__td__price-value">0</span>
+											<span class="b-cart-table__td__price-sign">Р</span>
+										</div>
+									</div>
+									<div class="b-cart-table__td delete"></div>
+								</div>
+							</div>
+						</div>
+						<div class="b-cart-checkout clearfix">
+							<span class="b-cart-checkout__min-amount">Минимальная сумма заказа 1 500р</span>
+							<button class="b-cart-checkout__btn btn-50lh check-icon red-btn float_r">ОФОРМИТЬ ЗАКАЗ</button>
+							<div class="b-cart-checkout__order-cost float_r">
+								Стоимость заказа:    
+								<span class="b-cart-checkout__order-cost__value">2 710s</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // END b-main-content-wrapper -->
+		
+		
+
+		<!-- BEGIN b-seo-wrapper -->
+		<div class="b-seo-wrapper">
+			<div class="b-content-wrap">
+				<div class="b-seo">
+					<div class="b-seo__item clearfix">
+						<div class="b-seo__item-descr">
+							<p>Интерьер основного зала — это уют и роскошь, простор и воздух. Благодаря панорамным окнам отсюда открывается прекрасный вид на город. В открытом пространстве здесь мирно уживаются классика и современность, домашний уют и урбанистические мотивы: садовая зелень, скамейки, мозаичные колонны, узорчатые панно на полу, удобные диваны всевозможных форм и расцветок, авторские буфеты и тумбы. Философия дачно-домашнего пространства допускает одновременное присутствие самых разных объектов: от дизайнерских до сугубо практических. </p>
+							<p>Открытая кухня, позволяющая видеть процесс приготовления, протянувшиеся под потолком вентиляционные трубы, не спрятанные под декоративными элементами, — лишние тому доказательства. </p>
+							<p>В центре зала расположился большой бар с контактной стойкой и удобными диванчиками на двоих. В ассортименте алкогольные напитки со всего мира, изысканные вина, самая большая в городе коктейльная карта, эксклюзивные кальяны.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // END b-seo-wrapper -->
+
+
+		<!-- BEGIN b-site-footer -->
+		<div class="b-site-footer">
+			<div class="b-content-wrap clearfix">
+				<span class="b-site-footer__copy float_l">© 2016 Domoed.su — быстрая доставка вкусной еды</span>
+				<ul class="b-site-footer__nav float_l">
+					<li class="b-site-footer__nav-item">
+						<a class='b-site-footer__nav-link' href="#">Наши рестораны</a>
+					</li>
+					<li class="b-site-footer__nav-item">
+						<a class='b-site-footer__nav-link' href="#">Доставка</a>
+					</li>
+					<li class="b-site-footer__nav-item">
+						<a class='b-site-footer__nav-link' href="#">Меню</a>
+					</li>
+					<li class="b-site-footer__nav-item">
+						<a class='b-site-footer__nav-link' href="#">Контакты</a>
+					</li>
+					<li class="b-site-footer__nav-item">
+						<a class='b-site-footer__nav-link' href="#">Акции</a>
+					</li>
+				</ul>
+				<div class="b-site-footer__phone float_l">
+					<div class="b-phone white-text">
+						<p class="b-phone__number">
+							<a class="phone__number-link" href="tel:3462940777">(3462) <span class='bold'>940-777</span></a>
+						</p>
+						<p class="b-phone__working-hours">
+							<span class="working-hours__item">вс - чт с 12:00 до 00:00</span>
+							<span class="working-hours__item">вс - чт с 12:00 до 00:00</span>
+						</p>
+					</div>
+				</div>
+				<div class="b-site-footer__soc float_r">
+					<ul class='b-soc wh30 clearfix'>
+						<li class='b-soc__item'>
+							<a class="b-soc__link" href="#"><img src="img/soc-fb.jpg" alt=""></a>
+						</li>
+						<li class='b-soc__item'>
+							<a class="b-soc__link" href="#"><img src="img/soc-vk.jpg" alt=""></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- // END b-site-footer -->
+
+	</div>
+</div>
+
+
+<div class="b-popup" data-popup="registration">
+    <div class="b-popup-overlay"></div>
+    <div class='b-popup-table'>
+		<div class="b-popup-td">
+			<form class="b-popup-content registration">
+			    <span class="popup-close" data-close-popup="all"></span>
+			    <div class="b-popup-content__title title40fz">Регистрация</div>
+
+				<div class="b-registration-form popup-form">
+					<div class='b-registration-form__item-line'>
+						<div class="b-registration-form__input must">
+							<input type="text" class='registration-form-input' placeholder='Введите ваше имя'>
+						</div>
+					</div>
+					<div class='b-registration-form__item-line'>
+						<div class="b-registration-form__input must">
+							<input type="text" class='registration-form-input' placeholder='Введите ваш телефон'>
+						</div>
+					</div>
+					<div class='b-registration-form__item-line'>
+						<div class="b-registration-form__input must">
+							<input type="text" class='registration-form-input' placeholder='Введите ваш e-mail'>
+						</div>
+					</div>
+					<div class='b-registration-form__item-line count-elem4 clearfix'>
+						<div class="b-registration-form__input must">
+							<input type="text" class='registration-form-input' placeholder='Дом'>
+						</div>
+						<div class="b-registration-form__input">
+							<input type="text" class='registration-form-input' placeholder='Корпус'>
+						</div>
+						<div class="b-registration-form__input">
+							<input type="text" class='registration-form-input' placeholder='Строение'>
+						</div>
+						<div class="b-registration-form__input">
+							<input type="text" class='registration-form-input' placeholder='Подъезд'>
+						</div>
+					</div>
+					<div class='b-registration-form__item-line count-elem3 clearfix'>
+						<div class="b-registration-form__input">
+							<input type="text" class='registration-form-input' placeholder='Кв-ра/офис'>
+						</div>
+						<div class="b-registration-form__input">
+							<input type="text" class='registration-form-input' placeholder='Этаж'>
+						</div>
+						<div class="b-registration-form__input">
+							<input type="text" class='registration-form-input' placeholder='Код домофона'>
+						</div>
+					</div>
+					<div class='b-registration-form__item-line add-adress'>
+						<a href="#">Добавить адрес</a>
+					</div>
+					<div class='b-registration-form__item-line add-bank-card'>
+						<a href="#">Привязать банковскую карту</a>
+					</div>
+					<div class='b-registration-form__item-line submit'>
+						<button class="btn-50lh red-btn ">Отправить</button>
+					</div>
+				</div>
+				<div class="b-registration-popup__seo">Политика в отношении обработки персональных данных определяет основные принципы и правила по обработке персональных данных, которыми мы руководствуемся в нашей работе, а также в общении с клиентами, поставщиками и сотрудниками. Политика в отношении обработки персональных данных распространяется на всех наших сотрудников.</div>
+			</form>
+		</div>
+    </div>
+ </div>
+
+
+<div class="b-popup" data-popup="login">
+    <div class="b-popup-overlay"></div>
+    <div class='b-popup-table'>
+		<div class="b-popup-td">
+			<form class="b-popup-content registration">
+			    <span class="popup-close" data-close-popup="all"></span>
+			    <div class="b-popup-content__title title40fz">Войти</div>
+
+				<div class="b-registration-form popup-form">
+					<div class='b-registration-form__item-line'>
+						<div class="b-registration-form__input must">
+							<input type="text" class='registration-form-input' placeholder='Введите телефон или email'>
+						</div>
+					</div>
+					<div class='b-registration-form__item-line'>
+						<div class="b-registration-form__input must">
+							<input type="text" class='registration-form-input' placeholder='Введите пароль'>
+						</div>
+					</div>
+					<div class='b-registration-form__item-line submit'>
+						<button class="btn-50lh red-btn key-icon">ВОЙТИ</button>
+					</div>
+				</div>
+
+
+				<div class='b-popup__soc-login'>
+					<p class="b-popup__soc-login__title">Войти через социальную сеть</p>
+					<ul class="b-soc wh45 clearfix">
+						<li class="b-soc__item">
+							<a class="b-soc__link soc-icon1" href="#"></a>
+						</li>
+						<li class="b-soc__item">
+							<a class="b-soc__link soc-icon2" href="#"></a>
+						</li>
+						<li class="b-soc__item">
+							<a class="b-soc__link soc-icon3" href="#"></a>
+						</li>
+						<li class="b-soc__item">
+							<a class="b-soc__link soc-icon4" href="#"></a>
+						</li>
+						<li class="b-soc__item">
+							<a class="b-soc__link soc-icon5" href="#"></a>
+						</li>
+						<li class="b-soc__item">
+							<a class="b-soc__link soc-icon6" href="#"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="b-popup__more-link mb50">
+					<a href="#" data-call-popup="registration" data-close-popup="login" >Регистрация</a>
+				</div>
+
+			</form>
+		</div>
+    </div>
+ </div>
+
+
+
+
+
+	<script src="js/jquery.js"></script>
+
+	<script>
+	  $( function() {
+	    $( ".slider-filter" ).slider({
+	      range: "min",
+	      value: 37,
+	      min: 1,
+	      max: 700,
+	      slide: function( event, ui ) {
+	        $( "#amount" ).val( "$" + ui.value );
+	      }
+	    });
+	    $( "#amount" ).val( "$" + $( "#slider-range-min" ).slider( "value" ) );
+	  } );
+  </script>
+
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<script src="js/input.mask.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/PP.js"></script>
+	<script src="js/jquery.formstyler.min.js"></script>
+	<script src="js/custom.js"></script>
+
+
+
+</body>
+</html>

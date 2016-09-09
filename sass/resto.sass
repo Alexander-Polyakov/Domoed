@@ -1,0 +1,426 @@
+.b-resto-seventcafe__left-side
+	background: url(../img/restourants/cross-background.jpg) repeat center center
+	color: #fff
+	font-size: 20px
+	padding: 80px 95px 135px
+	line-height: normal
+	width: 57.5%
+	position: relative
+	z-index: 1
+	box-sizing: border-box
+
+.b-resto-seventcafe__logo
+	margin-bottom: 20px
+
+.b-resto-seventcafe__logo-dots
+	margin-bottom: 23px
+
+.ttu
+	text-transform: uppercase
+
+.b-resto-seventcafe__logo-dot
+	display: inline-block
+	width: 5px
+	height: 5px
+	background: #fff
+	border-radius: 50%
+	margin: 0 1px
+
+.b-resto-seventcafe__text
+	line-height: 1.3
+	margin-bottom: 65px
+	font-family: $u-medium
+
+.b-resto-seventcafe__button
+	border-radius: 2px
+	padding: 0 30px
+	display: inline-block
+	line-height: 56px
+	font-family: $u-bold
+	font-size: 16px
+	letter-spacing: 1px
+	+trans
+
+	&:hover
+		opacity: 0.7
+
+	&.white
+		background: #fff
+		color: #000000
+
+	&.purple-btn
+		color: #fff
+		background: #820040
+
+	&.grey-btn
+		color: #fff
+		background: #402d27
+
+	&.light-grey-btn
+		color: #fff
+		background: #a6723e
+		position: relative
+
+		&.arrow
+			padding-right: 20px
+			&:after
+				display: block
+				content: ''
+				position: absolute
+				border: 28px solid transparent
+				border-left: 15px solid #a6723e
+				top: 50%
+				+transform(translateY(-50%))
+				left: 100%
+				margin-left: -1px
+	
+	&.brown-btn
+		background: #5b3e36
+		color: #fff
+
+	&.lightbrown-btn
+		background: #a6723e
+		color: #fff
+
+.b-resto-sevencafe__wrapper
+	position: relative
+	// overflow: hidden
+	&:after
+		display: block
+		content: ''
+		background: url(../img/restourants/resto-cabbage.jpg) no-repeat center center
+		width: 277px
+		height: 312px
+		position: absolute
+		top: 70px
+		left: 50%
+		margin-left: 30px
+
+.b-resto-sevencafe__slider-wrapper
+	position: absolute
+	bottom: -1px
+	right: 0
+	width: 42.5%
+	font-size: 0
+	line-height: 0
+
+	.owl-next
+		+sprite(resto-slider1-next)
+		position: absolute
+		top: 50%
+		right: -20px
+		+transform(translateY(-50%))
+		font-size: 0
+
+	.owl-prev
+		+sprite(resto-slider1-prev)
+		position: absolute
+		top: 50%
+		+transform(translateY(-50%))
+		left: -20px
+		font-size: 0
+
+.b-resto-sevencafe__second-aside-left
+	width: 43.5%
+	float: left
+
+	.owl-next
+		+sprite(resto-slider2-next)
+		position: absolute
+		top: 50%
+		right: -20px
+		+transform(translateY(-50%))
+		font-size: 0
+
+	.owl-prev
+		+sprite(resto-slider2-prev)
+		position: absolute
+		font-size: 0
+		top: 50%
+		+transform(translateY(-50%))
+		left: -20px
+
+.b-resto-sevencafe__second-aside-right
+	font-size: 16px
+	line-height: 1.25
+	color: #fff
+	overflow: hidden
+	background: url(../img/restourants/cross-background-brown.jpg) repeat
+	padding: 70px 70px 100px
+
+.icon-resto-sevencafe
+	+sprite(resto-lines-icon)
+	display: inline-block
+	vertical-align: middle
+
+.icon-resto-sevencafe--wrapper
+	margin-bottom: 30px
+
+.b-resto-sevencafe__footer
+	padding: 60px 20px
+
+.b-resto-sevencafe__footer-logo__wrapper
+	margin-bottom: 25px
+
+.b-resto-sevencafe__footer-cotnacts__title
+	font-size: 18px
+	font-style: italic
+	position: relative
+	display: inline-block
+	margin-bottom: 35px
+
+	&:after, &:before
+		position: absolute
+		content: ''
+		display: block
+		width: 100px
+		height: 1px
+		background: #efefef
+		top: 50%
+		right: 100%
+		margin-right: 20px
+		margin-top: 2px
+
+	&:before
+		left: 100%
+		margin-left: 20px
+		margin-right: auto
+
+.b-resto-sevencafe__footer-phone
+	font-size: 50px
+	font-family: $a-bold
+	letter-spacing: 1px
+	margin-bottom: 23px
+
+.b-resto-sevencafe__footer-address
+	font-size: 18px
+	margin-bottom: 60px
+
+.b-resto-sevencafe__footer-buttons
+	.b-resto-seventcafe__button
+		margin-right: 30px
+
+		&:last-child
+			margin-right: 0
+
+.b-resto-sevencafe__footer
+	border: 1px solid #402d27
+	border-top: none
+
+.b-resto-sevencafe__second-block
+	border-left: 1px solid #402d27
+	border-right: 1px solid #402d27
+
+.resto--sevencafe
+	position: relative
+
+	&:after, &:before
+		display: block
+		content: ''
+		position: absolute
+		background: url(../img/restourants/resto-shell.jpg) no-repeat center center
+		width: 80px
+		height: 142px
+		top: 53%
+		right: 0
+
+	&:before
+		background: url(../img/restourants/resto-tomato.jpg) no-repeat center center
+		right: auto
+		left: 0
+		top: 27%
+		width: 127px
+		height: 150px
+
+	.b-content-wrap
+		position: relative
+		z-index: 1
+
+.b-beer__best-house--wrapper
+	float: left
+	width: 61%
+	position: relative
+	font-size: 0
+	line-height: 0
+
+.b-beer__best-house__image
+	max-width: 100%
+
+.b-beer__best-house__right-image-wrapper
+	position: absolute
+	left: 100%
+	top: 50%
+	+transform(translateY(-50%))
+	margin-left: -20px
+	margin-top: 10px
+	width: 112%
+
+	img
+		max-width: 100%
+
+.b-beer__text-left
+	width: 61%
+	font-size: 18px
+	font-family: $u-medium
+	padding: 40px 100px
+	line-height: 1.3
+	float: left
+
+.b-beer__text-image__wrapper
+	overflow: hidden
+	font-size: 0
+	line-height: 0
+
+	img
+		width: 100%
+
+.beer-go-to-site
+	padding-top: 40px
+
+.b-beer__description-image__wrapper
+	float: left
+	width: 44%
+	position: relative
+	font-size: 0
+	line-height: 0
+
+	&:after, &:before
+		display: block
+		position: absolute
+		content: ''
+		background: url(../img/restourants/beer-stick.png) no-repeat center center
+		width: 114px
+		height: 109px
+		top: -30px
+		left: -40px
+
+	&:before
+		bottom: -40px
+		top: auto
+		left: auto
+		right: -30px
+	
+	img
+		width: 100%
+
+.b-beer__description-text
+	overflow: hidden
+	background: url(../img/restourants/beer-brown-bg.jpg) repeat center center
+	color: #fff
+	padding: 130px 70px
+	font-size: 16px
+	line-height: normal
+	position: relative
+	z-index: 1
+
+.b-beer-logo__text
+	font-size: 55px
+	color: #4c2617
+	font-family: $a-bold
+	text-transform: uppercase
+	margin-bottom: 25px
+
+.b-beer__footer
+	color: #4c2617
+	padding-top: 80px
+	padding-bottom: 80px
+	position: relative
+
+	&:after, &:before
+		display: block
+		content: ''
+		position: absolute
+		background: url(../img/restourants/beer-people-photos.jpg) no-repeat center center
+		width: 332px
+		height: 229px
+		top: 50%
+		+transform(translateY(-50%))
+		left: 50%
+		margin-left: -700px
+
+	&:after
+		width: 331px
+		height: 244px
+		background-image: url(../img/restourants/beer-people-photos2.jpg)
+		left: auto
+		right: 50%
+		margin-left: auto
+		margin-right: -700px
+
+.b-beer__text-wrapper
+	position: relative
+
+@media screen and (max-width: 1100px)
+	.b-beer__text-left
+		width: 100%
+	
+	.b-beer__text-image__wrapper
+		display: none
+
+	.b-beer__description-text
+		padding: 120px 30px
+
+	.b-resto-sevencafe__slider-wrapper, .b-resto-sevencafe__slider-second-slider
+		.owl-next
+			right: 10px
+
+		.owl-prev
+			left: 10px
+
+	.b-resto-seventcafe__left-side
+		padding-left: 50px
+		padding-right: 50px
+
+@media screen and (max-width: 768px)
+	.b-beer__best-house__right-image-wrapper
+		display: none
+
+	.b-beer__text-left
+		padding-left: 15px
+		padding-right: 15px
+
+	.b-beer__best-house--wrapper
+		width: 100%
+		float: none
+
+	.b-beer__description-image__wrapper
+		float: none
+		width: 100%
+
+	.b-beer__description-text
+		padding: 50px 15px
+
+	.b-beer-logo__text
+		font-size: 40px
+
+	.b-resto-sevencafe__footer-phone
+		font-size: 32px
+
+	.b-resto-sevencafe__footer-buttons
+		.b-resto-seventcafe__button
+			&:nth-child(n)
+				margin: 10px 15px
+
+	.b-beer__footer
+		&:after, &:before
+			display: none
+
+
+	.b-resto-seventcafe__left-side
+		width: 100%
+		float: none
+
+	.b-resto-sevencafe__slider-wrapper
+		position: relative
+		top: auto
+		right: auto
+		bottom: auto
+		left: auto
+		width: 100%
+
+	.b-resto-sevencafe__second-aside-left
+		float: none
+		width: 100%
+
+	.b-resto-sevencafe__second-aside-right
+		padding: 40px
