@@ -41,7 +41,6 @@
     font-weight: normal;
 }
 
-
 @font-face {
     font-family: "Ubuntu-Medium";
     src: url("../fonts/Ubuntu-Medium.eot");
@@ -75,7 +74,6 @@
     font-weight: normal;
 }
 
-
 @font-face {
     font-family: "Ubuntu-Bold";
     src: url("../fonts/Ubuntu-Bold.eot");
@@ -87,9 +85,24 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url("../fonts/BebasNeueBold.eot");
+    src: url("../fonts/BebasNeueBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/BebasNeueBold.woff2") format("woff"),
+    url("../fonts/BebasNeueBold.ttf") format("truetype"),
+    url("../fonts/BebasNeueBold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
 
-
-
-
-
-
+@font-face {
+    font-family: "GUERRILLA-Normal";
+    src: url("../fonts/GUERRILLA-Normal.eot");
+    src: url("../fonts/GUERRILLA-Normal.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GUERRILLA-Normal.woff2") format("woff"),
+    url("../fonts/GUERRILLA-Normal.ttf") format("truetype"),
+    url("../fonts/GUERRILLA-Normal.otf");
+    font-style: normal;
+    font-weight: normal;
+}

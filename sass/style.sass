@@ -276,7 +276,13 @@ body
 			+sprite(icon-check-lh50, "abs_middle")
 			left: 20px !important
 			margin-left: 0 !important
-
+	&.br
+		-webkit-border-radius: 5px
+		-moz-border-radius: 5px
+		border-radius: 5px
+	&.plr-small
+		padding-left: 20px
+		padding-right: 20px
 
 .b-site-wrapper
 	position: relative
@@ -3048,6 +3054,184 @@ body
 
 
 
+.b-banner-wrap
+	padding-top: 50px
+
+.b-banner
+	width: 100%
+	height: 504px
+	padding: 30px
+	background: url("../img/action/banner-bg.jpg") no-repeat center right
+	background-size: cover
+	position: relative
+	text-align: right
+
+.b-banner__content-b
+	display: inline-block
+	width: 606px
+	padding-right: 70px
+
+.b-banner__ribbons-text-wrap
+	width: 536px
+	height: 212px
+	padding: 30px 0 10px 0
+	margin-bottom: 15px
+	background: url("../img/action/ribbons.png") no-repeat top center
+	background-size: 100% 100%
+
+.b-banner__text
+	text-transform: uppercase
+	font-family: BebasNeueBold
+
+	&_first
+		margin-bottom: 25px
+
+	&_second
+		margin-bottom: 20px
+
+	&_big
+		font-size: 53px
+		line-height: 55px
+
+	&_medium
+		font-size: 26px
+
+	&_small
+		font-size: 20px
+
+	&_white
+		color: #fff
+
+	&_orange
+		color: #ef501f
+
+	&_rotate-3
+		+rotate(-3)
+
+	&_rotate-2
+		+rotate(-2)
+
+.b-banner__link
+	display: inline-block
+	border-bottom: 3px dotted #fff
+	+trans()
+
+	&:hover
+		color: #2bbc45
+		border-color: #2bbc45
+
+.b-banner__img-abs
+	position: absolute
+	bottom: -88px
+	right: 36%
+	transition: 3s ease 0s
+
+	&:hover
+		transform: rotate(15deg)
+
+.b-action
+	margin-bottom: 10px
+
+.b-pizza
+	font-size: 0
+
+.b-pizza__b-left
+	display: inline-block
+	vertical-align: middle
+	width: 58%
+	padding-top: 50px
+	text-align: right
+
+.b-pizza__b-right
+	display: inline-block
+	float: right
+	width: 42%
+	padding: 100px 0 0 50px
+	font-size: 36px
+
+.b-pizza__img-wrap
+	display: inline-block
+	position: relative
+
+.b-pizza__img
+	transition: 30s ease 0s
+
+	&:hover
+		transform: rotate(360deg)
+
+.b-action__img-zi-high
+	position: relative
+	z-index: 10
+
+.b-action__img-abs
+	position: absolute
+	top: -100px
+	left: 75%
+	z-index: -10
+	transform: translateX(-50%)
+
+.b-beer
+	font-size: 0
+	position: relative
+
+.b-beer__img-abs
+	position: absolute
+	top: 0
+	transition: 3s ease 0s
+
+	&:hover
+		transform: rotate(15deg)
+
+.b-beer__img
+	transition: 3s ease 0s
+
+	&:hover
+		transform: scale(1.1)
+
+.b-beer__b-left
+	display: inline-block
+	vertical-align: top
+	width: 50%
+	text-align: right
+	font-size: 36px
+
+.b-beer__b-right
+	display: inline-block
+	vertical-align: top
+	width: 50%
+	padding-top: 50px
+
+.b-beer__content
+	display: inline-block
+	width: 250px
+	padding-top: 30px
+	text-align: left
+
+.b-action__text
+	text-transform: uppercase
+	font-family: GUERRILLA-Normal
+	margin-bottom:  30px
+
+.circle-wrap
+	padding-left: 60px
+	margin-bottom: 25px
+
+.circle
+	display: inline-block
+	width:  30px
+	height: 30px
+	background: #ef501f
+	-webkit-border-radius: 50%
+	-moz-border-radius: 50%
+	border-radius: 50%
+
+.circle-text
+	text-align: center
+	font-family: GUERRILLA-Normal
+	font-size: 28px
+	line-height: 28px
+	color: #fff
+
 
 
 
@@ -3177,7 +3361,37 @@ body
 					margin-left: -5px
 	.b-sidebar__toggle
 		display: block
-	
+
+
+
+	.b-banner
+		height: 460px
+
+	.b-banner__content-b
+		display: block
+		margin: auto
+		padding-right: 0
+
+	.b-banner__text
+		&_big
+			font-size: 44px
+			line-height: 46px
+
+		&_medium
+			font-size: 22px
+
+		&_small
+			font-size: 18px
+
+		&_first
+			margin-bottom: 20px
+
+	.b-banner__ribbons-text-wrap
+		display: block
+		margin: 0 auto 15px auto
+		width: 467px
+		height: 185px
+
 
 
 @media screen and (max-width: 900px)
@@ -3203,6 +3417,74 @@ body
 
 
 
+@media screen and (max-width: 769px)
+	.b-banner__content-b
+		width: 100%
+
+	.b-banner__ribbons-text-wrap
+		width: 100%
+
+	.b-banner__img-abs
+		right: 10%
+
+	.b-pizza__b-left
+		display: block
+		width: 100%
+		padding-top: 40px
+
+	.b-pizza__b-right
+		display: block
+		float: none
+		width: 100%
+		padding-left: 0
+
+	.circle-wrap
+		padding: 0
+		margin-bottom: 20px
+		text-align: center
+
+	.b-pizza__b-right
+		padding-top: 30px
+		text-align: center
+
+	.b-action__text
+		margin-bottom: 20px
+		font-size: 30px
+
+		br
+			display: none
+
+	.b-pizza__b-left
+		text-align: center
+
+	.b-pizza__img-wrap
+		display: block
+
+	.b-action__img-abs
+		top: 40px
+		left:  55%
+		transform: translateX(-50%) rotate(180deg) scale(0.8)
+
+	.b-beer__b-left
+		display: block
+		width: 100%
+		text-align: left
+
+	.b-beer__content
+		display: block
+		width: 100%
+		text-align: center
+
+	.b-beer__b-right
+		display: block
+		width: 100%
+		padding-top: 40px
+		text-align: center
+
+	.b-beer__img-abs
+		width: 20%
+
+
 
 @media screen and (max-width: 750px)
 	.b-history-orders
@@ -3226,7 +3508,6 @@ body
 
 	.b-product-grid.similar
 		text-align: center
-
 
 
 
@@ -3347,6 +3628,31 @@ body
 		&:nth-child(2n+2)
 			margin-right: 0 !important
 
+
+
+@media screen and (max-width: 640px)
+	.b-banner
+		height: 420px
+
+	.b-banner__ribbons-text-wrap
+		height: 160px
+
+	.b-banner__text
+		&_big
+			font-size: 28px
+			line-height: 30px
+
+		&_medium
+			font-size: 18px
+
+		&_small
+			font-size: 18px
+
+		&_first
+			margin-bottom: 28px
+
+	.b-banner__img-text
+		width: 70%
 
 
 
@@ -3476,6 +3782,14 @@ body
 			display: block
 			br
 				display: none
+
+@media screen and (max-width: 480px)
+	.b-banner
+		height: 400px
+		padding: 30px 5px
+
+	.b-pizza__img
+		width: 90%
 
 @media screen and (max-width: 450px)
 	.ui-datepicker
