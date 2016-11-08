@@ -1,0 +1,344 @@
+@import "compass"
+@import reset
+@import mixins
+$icons-spacing: 15px
+@import fonts.css
+
+.b-banner-wrap
+	padding-top: 50px
+	margin-bottom: 50px
+
+.b-banner
+	width: 100%
+	position: relative
+
+	&.ptlr-30
+		padding-top: 30px
+		padding-left: 30px
+		padding-right: 30px
+
+	&.pb-85
+		padding-bottom: 85px
+
+	&.ta-r
+		text-align: right
+
+.b-banner__content-b
+	display: inline-block
+
+	&.pr-70
+		padding-right: 70px
+
+	.icon
+		+sprite(lines-crown)
+
+.b-banner__ribbons
+	width: 536px
+
+.b-banner__b-ribbon-gray
+	padding: 35px 10px 35px 25px
+	background: url("../img/action/ribbon-gray.png") no-repeat center center
+	background-size: 100% 100%
+
+.b-banner__b-ribbon-orange
+	display: inline-block
+	width: 85%
+	padding: 25px 35px 15px 40px
+	margin-top: -40px
+	background: url("../img/action/ribbon-orange.png") no-repeat center center
+	background-size: 100% 100%
+
+.text-uppercase-bebas
+	text-transform: uppercase
+	font-family: BebasNeueBold
+
+	&.fs-53
+		font-size: 53px
+
+	&.lh-55
+		line-height: 55px
+
+	&.fs-26
+		font-size: 26px
+
+	&.fs-20
+		font-size: 20px
+
+	&.c-white
+		color: #fff
+
+	&.c-orange
+		color: #ef501f
+
+	&.rotate--3deg
+		+rotate(-3)
+
+	&.rotate--2deg
+		+rotate(-2)
+
+	&.mb-20
+		margin-bottom: 20px
+
+.b-banner__link-brd
+	display: inline-block
+	border-bottom: 3px dotted #fff
+	word-wrap: break-word
+	color: #fff
+	+trans()
+
+	&:hover
+		color: #2bbc45
+		border-color: #2bbc45
+
+.b-choice-pizza__img-abs
+	width: 101px
+	height: 176px
+	background: url("../img/action/sheet-1.png") no-repeat
+	position: absolute
+	top: -135px
+	right: 36%
+	z-index: 20
+	transition: 3s ease 0s
+
+	&:hover
+		transform: rotate(-15deg)
+
+.b-action-wrap
+	margin-bottom: 10px
+
+.b-choice-pizza
+	font-size: 0
+	position: relative
+
+.b-choice-pizza__b-left
+	display: inline-block
+	vertical-align: middle
+	width: 58%
+	text-align: right
+
+.b-choice-pizza__b-right
+	display: inline-block
+	float: right
+	width: 42%
+	padding: 50px 0 50px 50px
+
+.b-choice-pizza__img-wrap
+	display: inline-block
+	position: relative
+	z-index: 10
+
+.b-choice-pizza__img
+	transition: 30s ease 0s
+
+	&:hover
+		transform: rotate(360deg)
+
+.b-action__img-abs
+	position: absolute
+	top: -90px
+	left: 75%
+	z-index: -10
+	transform: translateX(-50%)
+
+.b-choice-beer
+	font-size: 0
+	position: relative
+	z-index: 20
+
+.b-choice-beer__img-abs-wrap
+	width: 10%
+	position: absolute
+	top: 15px
+	left: 7%
+	overflow: hidden
+	transition: 3s ease 0s
+
+	&:hover
+		transform: rotate(15deg)
+
+.b-choice-beer__img-abs-size
+	background: url("../img/action/sheet-2.png") no-repeat center center
+	background-size: 100% auto
+	padding-top: 150%
+
+.b-choice-beer__img
+	transition: 3s ease 0s
+
+	&:hover
+		transform: scale(1.1)
+
+.b-choice-beer__b-left
+	display: inline-block
+	vertical-align: top
+	width: 50%
+	text-align: right
+	font-size: 36px
+
+.b-choice-beer__b-right
+	display: inline-block
+	vertical-align: top
+	width: 50%
+	padding-top: 50px
+
+.b-choice-beer__content
+	display: inline-block
+	width: 250px
+	padding: 30px 50px 0 0
+	text-align: left
+
+.text-action-content
+	text-transform: uppercase
+	font-family: GUERRILLA-Normal
+	font-size: 36px
+	margin-bottom:  30px
+
+.circle
+	display: inline-block
+	-webkit-border-radius: 50%
+	-moz-border-radius: 50%
+	border-radius: 50%
+
+	&.orange
+		background: #ef501f
+
+	&.wh-30x30
+		width:  30px
+		height: 30px
+
+.text-guerilla-28-white
+	font-family: GUERRILLA-Normal
+	font-size: 28px
+	line-height: 28px
+	color: #fff
+
+@media screen and (max-width: 992px)
+	.b-banner-wrap
+		padding-top: 0
+
+	.b-banner__content-b
+		display: block
+		margin: auto
+
+		&.pr-70
+			padding-right: 0
+
+	.text-uppercase-bebas
+		text-transform: uppercase
+		font-family: BebasNeueBold
+
+		&.fs-53
+			font-size: 44px
+
+		&.lh-55
+			line-height: 46px
+
+		&.fs-26
+			font-size: 22px
+
+		&.fs-20
+			font-size: 18px
+
+	.b-banner__ribbons
+		display: block
+		width: 467px
+		margin: 0 auto 15px auto
+
+@media screen and (max-width: 769px)
+	.b-banner
+		&.pb-85
+			padding-bottom: 40px
+
+	.b-banner__content-b
+		width: 100%
+
+	.b-choice-pizza__img-abs
+		right: 10%
+
+	.b-choice-pizza__b-left
+		display: block
+		width: 100%
+
+	.b-choice-pizza__b-right
+		display: block
+		float: none
+		width: 100%
+		padding-top: 0
+		padding-bottom: 30px
+		padding-left: 0
+		text-align: center
+
+		>.pl60
+			padding-left: 0
+
+	.text-action-content
+		margin-bottom: 20px
+		font-size: 30px
+
+		br
+			display: none
+
+	.b-choice-pizza__b-left
+		text-align: center
+
+	.b-choice-pizza__img-wrap
+		display: block
+
+	.b-action__img-abs
+		top: 40px
+		left:  55%
+		transform: translateX(-50%) rotate(180deg) scale(0.8)
+
+	.b-choice-beer__b-left
+		display: block
+		width: 100%
+		text-align: left
+
+	.b-choice-beer__content
+		display: block
+		width: 100%
+		padding-right: 0
+		text-align: center
+
+		>.pl60
+			padding-left: 0
+
+	.b-choice-beer__b-right
+		display: block
+		width: 100%
+		padding-top: 40px
+		text-align: center
+
+@media screen and (max-width: 640px)
+	.b-banner__ribbons
+		width: 100%
+
+	.b-banner__b-ribbon-orange
+		margin-top: -35px
+
+	.text-uppercase-bebas
+		text-transform: uppercase
+		font-family: BebasNeueBold
+
+		&.fs-53
+			font-size: 28px
+
+		&.lh-55
+			line-height: 30px
+
+		&.fs-26
+			font-size: 18px
+
+	.b-banner__link-brd
+		border-bottom: 2px dotted #fff
+
+	.b-banner__img-text
+		width: 70%
+
+@media screen and (max-width: 480px)
+	.b-banner
+		&.ptlr-30
+			padding-left: 5px
+			padding-right: 5px
+
+	.b-choice-pizza__img
+		width: 90%
