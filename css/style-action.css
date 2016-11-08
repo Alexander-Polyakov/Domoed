@@ -87,7 +87,7 @@ a, img, a:active, a:focus { outline: none; }
 .b-choice-beer__img-abs-wrap { width: 10%; position: absolute; top: 15px; left: 7%; overflow: hidden; transition: 3s ease 0s; }
 .b-choice-beer__img-abs-wrap:hover { transform: rotate(15deg); }
 
-.b-choice-beer__img-abs-size { background: url("../img/action/sheet-2.png") no-repeat center center; background-size: 100% auto; padding-top: 150%; }
+.b-choice-beer__img-abs-size { display: block; background: url("../img/action/sheet-2.png") no-repeat center center; background-size: 100% auto; padding-top: 150%; }
 
 .b-choice-beer__img { transition: 3s ease 0s; }
 .b-choice-beer__img:hover { transform: scale(1.1); }
