@@ -80,7 +80,7 @@ a, img, a:active, a:focus { outline: none; }
 .b-choice-pizza__img { transition: 30s ease 0s; }
 .b-choice-pizza__img:hover { transform: rotate(360deg); }
 
-.b-action__img-abs { position: absolute; top: -90px; left: 75%; z-index: -10; transform: translateX(-50%); }
+.b-action__img-abs-line { position: absolute; top: -90px; left: 75%; z-index: -10; transform: translateX(-50%); }
 
 .b-choice-beer { font-size: 0; position: relative; z-index: 20; }
 
@@ -125,7 +125,7 @@ a, img, a:active, a:focus { outline: none; }
   .text-action-content br { display: none; }
   .b-choice-pizza__b-left { text-align: center; }
   .b-choice-pizza__img-wrap { display: block; }
-  .b-action__img-abs { top: 40px; left: 55%; transform: translateX(-50%) rotate(180deg) scale(0.8); }
+  .b-action__img-abs-line { top: 40px; left: 55%; transform: translateX(-50%) rotate(180deg) scale(0.8); }
   .b-choice-beer__b-left { display: block; width: 100%; text-align: left; }
   .b-choice-beer__content { display: block; width: 100%; padding-right: 0; text-align: center; }
   .b-choice-beer__content > .pl60 { padding-left: 0; }
