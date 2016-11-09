@@ -1,8 +1,4 @@
-@import "compass"
-@import reset
 @import mixins
-$icons-spacing: 15px
-@import fonts.css
 
 .b-banner-wrap
 	padding-top: 50px
@@ -212,7 +208,7 @@ $icons-spacing: 15px
 	line-height: 28px
 	color: #fff
 
-@media screen and (max-width: 992px)
+@media screen and (max-width: 991px)
 	.b-banner-wrap
 		padding-top: 0
 
@@ -244,7 +240,12 @@ $icons-spacing: 15px
 		width: 467px
 		margin: 0 auto 15px auto
 
-@media screen and (max-width: 769px)
+@media screen and (max-width: 767px)
+	.b-choice-beer__img-abs-wrap
+		left: 1%
+		top: 0
+		width: 15%
+
 	.b-banner
 		&.pb-85
 			padding-bottom: 40px
@@ -310,6 +311,9 @@ $icons-spacing: 15px
 		text-align: center
 
 @media screen and (max-width: 640px)
+	.b-choice-beer__img-abs-wrap
+		width: 20%
+
 	.b-banner__ribbons
 		width: 100%
 
