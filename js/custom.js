@@ -215,6 +215,8 @@ $(document).ready(function(){
         
     }
 
-
+    $(function() {
+        $(".text-arc").lettering();
+    });
 
 });

@@ -7,8 +7,8 @@
 
 .b-banner__content-b { display: inline-block; }
 .b-banner__content-b.pr-70 { padding-right: 70px; }
-.b-banner__content-b .icon { background-image: url('../img/icons-s60eedbdb85.png'); background-position: 0 -1016px; background-repeat: no-repeat; overflow: hidden; display: inline-block; height: 64px; width: 122px; }
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) { .b-banner__content-b .icon { background-image: url('../img/icons-2x-s6d24e19d3f.png'); background-size: 122px auto; background-position: 0 -1003px; height: 64px; width: 122px; } }
+.b-banner__content-b .icon-lines-crown { background-image: url('../img/icons-s60eedbdb85.png'); background-position: 0 -1016px; background-repeat: no-repeat; overflow: hidden; display: inline-block; height: 64px; width: 122px; }
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) { .b-banner__content-b .icon-lines-crown { background-image: url('../img/icons-2x-s6d24e19d3f.png'); background-size: 122px auto; background-position: 0 -1003px; height: 64px; width: 122px; } }
 
 .b-banner__ribbons { width: 536px; }
 

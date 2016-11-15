@@ -1,4 +1,15 @@
 @font-face {
+    font-family: "ALSSchlangesans";
+    src: url("../fonts/ALSSchlangesans.eot");
+    src: url("../fonts/ALSSchlangesans.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ALSSchlangesans.woff2") format("woff"),
+    url("../fonts/ALSSchlangesans.ttf") format("truetype"),
+    url("../fonts/ALSSchlangesans.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "ALSSchlangesans-Bold";
     src: url("../fonts/ALSSchlangesans-Bold.eot");
     src: url("../fonts/ALSSchlangesans-Bold.eot?#iefix")format("embedded-opentype"),

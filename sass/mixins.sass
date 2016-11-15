@@ -343,3 +343,17 @@ $icons-2x: sprite-map("icons-2x/*.png", $position: 0, $spacing: 10px, $repeat: n
 		background-size: contain
 	@else
 		background-size: (image-width($retina) / 2) (image-height($retina) / 2)
+
+
+=transform($params)
+	-webkit-transform: $params
+	-moz-transform: $params
+	-ms-transform: $params
+	-o-transform: $params
+	transform: $params
+
+=rotated-text($num-letters: 100, $angle-span: 180deg, $angle-offset: 0deg)
+	$angle-per-char: $angle-span / $num-letters
+	@for $i from 1 through $num-letters
+		.char#{$i}
+			transform: (rotate($angle-offset + $angle-per-char * $i))

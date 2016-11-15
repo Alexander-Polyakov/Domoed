@@ -1,0 +1,224 @@
+@import mixins
+
+
+
+$a-black: "ALSSchlangesans-Black"
+$a-bold: "ALSSchlangesans-Bold"
+$u-regular: "Ubuntu-Regular"
+$u-bold: "Ubuntu-Bold"
+
+
+
+.btn-60lh
+  font-size: 22px
+  text-transform: uppercase
+  font-family: $u-bold
+  outline: none
+  display: inline-block
+  vertical-align: middle
+  line-height: 60px
+  position: relative
+  padding: 0 35px
+  +trans
+  &.green-btn
+    color: #fff
+    background: #2bbc45
+    &:hover
+      background: #1eaa37
+  &.br
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+
+
+
+.b-banner
+  &.ptlr-95
+    padding-top: 95px
+    padding-left: 95px
+    padding-right: 95px
+  &.pb-65
+    padding-bottom: 65px
+
+.b-banner__content-b
+  &.flex
+    display: flex
+    align-items: center
+    justify-content: flex-start
+
+.b-banner__title-b
+  display: inline-block
+  padding-right: 25px
+
+.b-banner__tag-b
+  display: inline-block
+  vertical-align: top
+  min-width: 308px
+  max-width: 55%
+  padding: 50px 35px 60px 20px
+  background: url("../img/discount/discount-tag.png") no-repeat center center
+  background-size: 100% 100%
+  color: #fff
+
+.b-special-price
+  width: 75%
+  padding-left: 10%
+
+.b-showcase-wrapper
+  margin-bottom: 160px
+
+.b-showcase__list
+  width: 100%
+  margin-bottom: 65px
+  font-size: 0
+
+.b-showcase__item
+  display: inline-block
+  vertical-align: bottom
+  width: 25%
+  padding-left: 20px
+  padding-right: 20px
+  font-size: 16px
+  position: relative
+
+.b-showcase__img-product
+  width: 90%
+  margin-bottom: 25px
+
+.text-arc
+  height: 22px
+  position: relative
+  top: -40px
+  transform: rotate(-19deg)
+  +rotated-text(30, 80deg, 0deg)
+  &.second-row
+    top: -30px
+    left: 25%
+    transform: rotate(-11deg)
+  span
+    width: 15px
+    height: 300px
+    position: absolute
+    left: 0
+    top: 0
+    transform-origin: bottom center
+    font-family: "GUERRILLA-Normal"
+    font-size: 22px
+    font-weight: 600
+
+
+
+.mb-15
+  margin-bottom: 15px
+.mb-20
+  margin-bottom: 20px
+.mb-55
+  margin-bottom: 55px
+.mb-80
+  margin-bottom: 80px
+.w-100pc
+  width: 100%
+.tt-u
+  text-transform: uppercase
+.ff-alsss-r
+  font-family: "ALSSchlangesans"
+.ff-alsss-b
+  font-family: $a-bold
+.ff-alsss-black
+  font-family: $a-black
+.ff-guerrilla
+  font-family: GUERRILLA-Normal
+.ff-ubuntu-r
+  font-family: $u-regular
+.fs-0
+  font-size: 0
+.fs-17
+  font-size: 17px
+.fs-18
+  font-size: 18px
+.fs-22
+  font-size: 22px
+.fs-28
+  font-size: 28px
+.fs-81
+  font-size: 81px
+.lh-71
+  line-height: 71px
+
+
+
+@media screen and (max-width: 991px)
+  .b-banner
+    &.ptlr-95
+      padding-top: 30px
+      padding-left: 30px
+      padding-right: 30px
+    &.pb-65
+      padding-bottom: 30px
+
+  .b-banner__title-b
+    width: 50%
+
+  .b-banner__img-title
+    width: 100%
+
+  .b-showcase__list
+    margin-bottom: 30px
+
+  .b-showcase__item
+    width: 50%
+    padding-top: 5%
+    padding-bottom: 5%
+
+  .text-arc-wrap
+    width: 200px
+    display: block
+    margin: auto
+    &.w-170px
+      width: 170px
+
+  .text-arc
+    transform: rotate(-17deg)
+
+  .b-showcase__img-product
+    width: 70%
+    &.w-100pc
+      width: 80%
+
+@media screen and (max-width: 767px)
+  .b-banner__content-b
+    &.flex
+      display: block
+      text-align: center
+
+  .b-banner__title-b
+    display: block
+    width: 100%
+    padding-right: 0
+    margin-bottom: 25px
+
+  .b-banner__img-title
+    width: 200px
+
+  .b-banner__tag-b
+    width: 75%
+    min-width: 350px
+    max-width: none
+    padding: 20px 10% 30px 10%
+
+@media screen and (max-width: 639px)
+  .b-showcase__item
+    width: 100%
+    padding-bottom: 10%
+    &:last-child
+      padding-bottom: 0
+
+@media screen and (max-width: 479px)
+  .b-showcase__item
+    padding-bottom: 15%
+  .b-banner__tag-b
+    width: 100%
+    min-width: 200px
+    padding: 20px 10% 30px 10%
+    .fs-81
+      font-size: 57px
