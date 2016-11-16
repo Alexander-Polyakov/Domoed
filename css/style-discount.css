@@ -104,9 +104,10 @@
   .b-showcase__img-product { width: 70%; }
   .b-showcase__img-product.w-100pc { width: 80%; } }
 @media screen and (max-width: 767px) { .b-banner__content-b.flex { display: block; text-align: center; }
-  .b-banner__title-b { display: block; width: 100%; padding-right: 0; margin-bottom: 25px; }
+  .b-banner__title-b { display: block; width: 100%; padding-right: 0; padding-left: 35px; margin-bottom: 25px; }
   .b-banner__img-title { width: 200px; }
-  .b-banner__tag-b { width: 75%; min-width: 350px; max-width: none; padding: 20px 10% 30px 10%; } }
+  .b-banner__tag-b { width: 75%; min-width: 350px; max-width: none; padding: 20px 10% 30px 10%; }
+  .b-showcase-wrapper { margin-bottom: 60px; } }
 @media screen and (max-width: 639px) { .b-showcase__item { width: 100%; padding-bottom: 10%; }
   .b-showcase__item:last-child { padding-bottom: 0; } }
 @media screen and (max-width: 479px) { .b-showcase__item { padding-bottom: 15%; }
