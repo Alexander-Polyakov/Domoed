@@ -1618,4 +1618,6 @@ body { font-size: 14px; font-family: "Ubuntu-Regular"; }
 @media screen and (max-width: 479px) { .b-banner.ptlr-65 { padding-top: 15px; padding-left: 15px; padding-right: 15px; }
   .b-banner__green-cell-b .fs-68 { font-size: 36px; }
   .b-banner__green-cell-b .fs-32 { font-size: 20px; }
-  .b-registry-desc .fs-52 { font-size: 30px; } }
+  .b-registry-desc .fs-52 { font-size: 30px; }
+  .b-registry-desc .fs-28 { font-size: 24px; }
+  .b-registry-desc .fs-18 { font-size: 16px; } }
