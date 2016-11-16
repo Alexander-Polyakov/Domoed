@@ -1425,6 +1425,8 @@ body { font-size: 14px; font-family: "Ubuntu-Regular"; }
 .btn-60lh.green-btn:hover { background: #1eaa37; }
 .btn-60lh.br { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 
+.b-banner-wrap.mb-55 { margin-bottom: 55px; }
+
 .b-banner.ptlr-95 { padding-top: 95px; padding-left: 95px; padding-right: 95px; }
 .b-banner.pb-65 { padding-bottom: 65px; }
 
@@ -1482,8 +1484,6 @@ body { font-size: 14px; font-family: "Ubuntu-Regular"; }
 
 .mb-20 { margin-bottom: 20px; }
 
-.mb-55 { margin-bottom: 55px; }
-
 .mb-80 { margin-bottom: 80px; }
 
 .w-100pc { width: 100%; }
@@ -1518,6 +1518,7 @@ body { font-size: 14px; font-family: "Ubuntu-Regular"; }
   .b-banner.pb-65 { padding-bottom: 30px; }
   .b-banner__title-b { width: 50%; }
   .b-banner__img-title { width: 100%; }
+  .b-showcase-wrapper .mb-80 { margin-bottom: 40px; }
   .b-showcase__list { margin-bottom: 30px; }
   .b-showcase__item { width: 50%; padding-top: 5%; padding-bottom: 5%; }
   .text-arc-wrap { width: 200px; display: block; margin: auto; }
@@ -1529,7 +1530,9 @@ body { font-size: 14px; font-family: "Ubuntu-Regular"; }
   .b-banner__title-b { display: block; width: 100%; padding-right: 0; padding-left: 35px; margin-bottom: 25px; }
   .b-banner__img-title { width: 200px; }
   .b-banner__tag-b { width: 75%; min-width: 350px; max-width: none; padding: 20px 10% 30px 10%; }
-  .b-showcase-wrapper { margin-bottom: 60px; } }
+  .b-showcase-wrapper { margin-bottom: 60px; }
+  .b-showcase-wrapper .fs-22 { font-size: 20px; }
+  .b-special-price { width: 100%; padding-right: 10%; } }
 @media screen and (max-width: 639px) { .b-showcase__item { width: 100%; padding-bottom: 10%; }
   .b-showcase__item:last-child { padding-bottom: 0; } }
 @media screen and (max-width: 479px) { .b-showcase__item { padding-bottom: 15%; }
@@ -1542,6 +1545,8 @@ body { font-size: 14px; font-family: "Ubuntu-Regular"; }
 .content-limiter { padding: 0 10%; }
 
 .dot-small-white { display: inline-block; width: 5px; height: 5px; margin: 1px; background: #fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+
+.b-banner-wrap.mb-105 { margin-bottom: 105px; }
 
 .b-banner.ptlr-65 { padding-top: 65px; padding-left: 65px; padding-right: 65px; }
 
@@ -1577,7 +1582,8 @@ body { font-size: 14px; font-family: "Ubuntu-Regular"; }
   .b-banner__green-cell-b .fs-68 { font-size: 56px; }
   .b-banner__green-cell-b .fs-32 { font-size: 30px; }
   .b-banner__orange-blot-b { margin-bottom: 0; } }
-@media screen and (max-width: 767px) { .b-banner__green-cell-b .fs-68 { font-size: 44px; }
+@media screen and (max-width: 767px) { .b-banner-wrap.mb-105 { margin-bottom: 75px; }
+  .b-banner__green-cell-b .fs-68 { font-size: 44px; }
   .b-banner__green-cell-b .fs-32 { font-size: 26px; }
   .b-registry-desc .fs-52 { font-size: 44px; }
   .b-registry-desc-wrapper { margin-bottom: 50px; } }
