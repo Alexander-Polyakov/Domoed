@@ -176,7 +176,16 @@ $u-bold: "Ubuntu-Bold"
 
   .b-showcase-wrapper
     &.mb-105
-      margin-bottom: 55px
+      margin-bottom: 0
+    >.b-content-wrap
+      padding-left: 0
+      padding-right: 0
+
+  .b-special-price
+    width: 100%
+    padding-left: 10%
+    padding-right: 10%
+    text-align: center
 
   .b-showcase__list
     margin-bottom: 30px
@@ -223,13 +232,6 @@ $u-bold: "Ubuntu-Bold"
     max-width: none
     padding: 20px 10% 30px 10%
 
-  .b-showcase-wrapper
-    &.mb-105
-      margin-bottom: 0
-    >.b-content-wrap
-      padding-left: 0
-      padding-right: 0
-
   .b-showcase
     padding: 35px 0
     .fs-22
@@ -245,7 +247,7 @@ $u-bold: "Ubuntu-Bold"
     padding-left: 5%
     padding-right: 5%
     &.mb-60
-      margin-bottom: 30px
+      margin-bottom: 40px
 
 @media screen and (max-width: 639px)
   .b-showcase__item
@@ -255,6 +257,9 @@ $u-bold: "Ubuntu-Bold"
       padding-bottom: 0
 
 @media screen and (max-width: 479px)
+  .b-showcase
+    .fs-22
+      font-size: 16px
   .b-showcase__item
     padding-bottom: 15%
   .b-banner__tag-b
