@@ -33,8 +33,8 @@ $u-bold: "Ubuntu-Bold"
 
 
 .b-banner-wrap
-  &.mb-55
-    margin-bottom: 55px
+  &.mb-0
+    margin-bottom: 0
 
 .b-banner
   &.ptlr-95
@@ -67,9 +67,17 @@ $u-bold: "Ubuntu-Bold"
 .b-special-price
   width: 75%
   padding-left: 10%
+  &.mb-60
+    margin-bottom: 60px
 
 .b-showcase-wrapper
-  margin-bottom: 160px
+  &.mb-105
+    margin-bottom: 105px
+
+.b-showcase
+  padding: 55px 0
+  background: url("../img/discount/b-showcase-bg.png") no-repeat center center
+  background-size: cover
 
 .b-showcase__list
   width: 100%
@@ -80,6 +88,7 @@ $u-bold: "Ubuntu-Bold"
   display: inline-block
   vertical-align: bottom
   width: 25%
+  padding-top: 20px
   padding-left: 20px
   padding-right: 20px
   font-size: 16px
@@ -93,7 +102,7 @@ $u-bold: "Ubuntu-Bold"
   height: 22px
   position: relative
   top: -40px
-  transform: rotate(-19deg)
+  transform: rotate(-24deg)
   +rotated-text(30, 80deg, 0deg)
   &.second-row
     top: -30px
@@ -116,8 +125,6 @@ $u-bold: "Ubuntu-Bold"
   margin-bottom: 15px
 .mb-20
   margin-bottom: 20px
-.mb-80
-  margin-bottom: 80px
 .w-100pc
   width: 100%
 .tt-u
@@ -140,8 +147,8 @@ $u-bold: "Ubuntu-Bold"
   font-size: 18px
 .fs-22
   font-size: 22px
-.fs-28
-  font-size: 28px
+.fs-26
+  font-size: 26px
 .fs-81
   font-size: 81px
 .lh-71
@@ -150,6 +157,9 @@ $u-bold: "Ubuntu-Bold"
 
 
 @media screen and (max-width: 991px)
+  .b-banner-wrap >.b-content-wrap
+    padding-left: 0
+    padding-right: 0
   .b-banner
     &.ptlr-95
       padding-top: 30px
@@ -165,8 +175,8 @@ $u-bold: "Ubuntu-Bold"
     width: 100%
 
   .b-showcase-wrapper
-    .mb-80
-      margin-bottom: 40px
+    &.mb-105
+      margin-bottom: 55px
 
   .b-showcase__list
     margin-bottom: 30px
@@ -214,13 +224,28 @@ $u-bold: "Ubuntu-Bold"
     padding: 20px 10% 30px 10%
 
   .b-showcase-wrapper
-    margin-bottom: 60px
+    &.mb-105
+      margin-bottom: 0
+    >.b-content-wrap
+      padding-left: 0
+      padding-right: 0
+
+  .b-showcase
+    padding: 35px 0
     .fs-22
       font-size: 20px
 
+  .b-showcase__img-product
+    max-width: 250px
+    &.w-100pc
+      max-width: 250px
+
   .b-special-price
     width: 100%
-    padding-right: 10%
+    padding-left: 5%
+    padding-right: 5%
+    &.mb-60
+      margin-bottom: 30px
 
 @media screen and (max-width: 639px)
   .b-showcase__item

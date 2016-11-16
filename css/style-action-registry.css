@@ -3,10 +3,10 @@
 .btn-60lh.red-btn:hover { background: #ce4217; }
 
 .content-limiter { padding: 0 10%; }
+.content-limiter p { margin-bottom: 15px; }
+.content-limiter p:last-child { margin-bottom: 0; }
 
 .dot-small-white { display: inline-block; width: 5px; height: 5px; margin: 1px; background: #fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
-
-.b-banner-wrap.mb-105 { margin-bottom: 105px; }
 
 .b-banner.ptlr-65 { padding-top: 65px; padding-left: 65px; padding-right: 65px; }
 
@@ -14,7 +14,9 @@
 
 .b-banner__orange-blot-b { display: inline-block; padding: 7px; margin-bottom: -7px; background: url("../img/action-registry/orange-blot-bg.png") no-repeat center center; background-size: 100% 100%; color: #fff; }
 
-.b-registry-desc-wrapper { margin-bottom: 150px; }
+.b-registry-desc-wrapper { margin-bottom: 115px; }
+
+.b-registry-desc { padding-top: 150px; padding-bottom: 35px; border-bottom: 1px solid #402d27; border-left: 1px solid #402d27; border-right: 1px solid #402d27; }
 
 .mb-30 { margin-bottom: 30px; }
 
@@ -27,6 +29,8 @@
 .ff-ubuntu-l { font-family: "Ubuntu-Light"; }
 
 .fs-14 { font-size: 14px; }
+
+.fs-28 { font-size: 28px; }
 
 .fs-32 { font-size: 32px; }
 
@@ -41,10 +45,11 @@
 @media screen and (max-width: 991px) { .b-banner__green-cell-b { padding: 50px 5% 40px 5%; }
   .b-banner__green-cell-b .fs-68 { font-size: 56px; }
   .b-banner__green-cell-b .fs-32 { font-size: 30px; }
-  .b-banner__orange-blot-b { margin-bottom: 0; } }
-@media screen and (max-width: 767px) { .b-banner-wrap.mb-105 { margin-bottom: 75px; }
-  .b-banner__green-cell-b .fs-68 { font-size: 44px; }
+  .b-banner__orange-blot-b { margin-bottom: 0; }
+  .b-registry-desc { border: none; } }
+@media screen and (max-width: 767px) { .b-banner__green-cell-b .fs-68 { font-size: 44px; }
   .b-banner__green-cell-b .fs-32 { font-size: 26px; }
+  .b-registry-desc { padding-top: 100px; }
   .b-registry-desc .fs-52 { font-size: 44px; }
   .b-registry-desc-wrapper { margin-bottom: 50px; } }
 @media screen and (max-width: 639px) { .b-banner.ptlr-65 { padding-top: 35px; padding-left: 35px; padding-right: 35px; }
